@@ -1,0 +1,90 @@
+body {
+  background-color: white;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: #000000;
+  border-bottom: 1px solid #000000;
+}
+header p {
+  color: white;
+}
+header img {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+nav {
+  background-color: #000000;
+  border-bottom: 1px solid #000000;
+  border-radius: 5px;
+}
+nav h1 {
+  color: #ffffff;
+  cursor: default;
+}
+nav .cog-inc {
+  font-family: serif;
+}
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+nav a:hover {
+  color: #774c14;
+}
+
+.title-image {
+  background-image: url(/assets/paisagem-title.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 515px;
+  border-bottom: 1px solid #000000;
+  cursor: default;
+}
+
+.welcome h2 {
+  color: #6c0abd;
+}
+.welcome .linha {
+  border: #f70505 solid 1px;
+}
+.welcome .linha1 {
+  border: #f70505 solid 1px;
+  height: 77px;
+}
+.welcome .linha2 {
+  border: #00af0f solid 1px;
+}
+.welcome p {
+  color: #000000;
+  font-size: 18px;
+}
+.welcome #culi {
+  color: #56005e;
+}
+.welcome #nar {
+  color: #039b24;
+}
+.welcome #ias {
+  color: #c20000;
+}
+
+.botao .btn {
+  background-color: #04861a;
+}
+
+.bottom img {
+  height: 300px;
+  width: 300px;
+}
+.bottom div .btn {
+  background-color: #3f034e;
+}
+
+.rodape div {
+  color: #000000;
+}/*# sourceMappingURL=index.css.map */
