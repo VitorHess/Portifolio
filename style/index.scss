@@ -1,6 +1,7 @@
 body {
   background-color: white;
   overflow-x: hidden;
+  cursor: default;
 }
 
 header {
@@ -34,13 +35,13 @@ nav {
     cursor: pointer;
     
     &:hover {
-      color: #774c14;
+      color: #e2dddd;
     }
   }
 }
 
 .title-image {
-  background-image: url(./assets/paisagem-title.jpg);
+  background-image: url(/assets/paisagem-title.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -91,6 +92,11 @@ nav {
   a{
     color: rgb(23, 132, 175);
     text-decoration: none;
+    cursor: pointer;
+    
+    &:hover {
+      color: #295ab6;
+    }
   }
 }
 
