@@ -37,7 +37,7 @@ nav a:hover {
 }
 
 .title-image {
-  background-image: url(/assets/paisagem-title.jpg);
+  background-image: url(./assets/paisagem-title.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -47,7 +47,7 @@ nav a:hover {
 }
 
 .welcome h2 {
-  color: #6c0abd;
+  color: rgb(105, 0, 131);
 }
 .welcome .linha {
   border: #f70505 solid 1px;
@@ -63,14 +63,20 @@ nav a:hover {
   color: #000000;
   font-size: 18px;
 }
-.welcome #culi {
-  color: #56005e;
+
+.links-box h2 {
+  color: rgb(105, 0, 131);
 }
-.welcome #nar {
-  color: #039b24;
+.links-box p {
+  color: #000000;
+  font-size: 18px;
 }
-.welcome #ias {
-  color: #c20000;
+.links-box .linha {
+  border: #f70505 solid 1px;
+}
+.links-box a {
+  color: rgb(23, 132, 175);
+  text-decoration: none;
 }
 
 .botao .btn {
@@ -87,6 +93,4 @@ nav a:hover {
 
 .rodape div {
   color: #000000;
-}
-
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */

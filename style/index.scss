@@ -40,7 +40,7 @@ nav {
 }
 
 .title-image {
-  background-image: url(/assets/paisagem-title.jpg);
+  background-image: url(./assets/paisagem-title.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -51,7 +51,7 @@ nav {
 
 .welcome {
   h2 {
-    color: #6c0abd;
+    color: rgb(105, 0, 131);
   }
 
   .linha{
@@ -72,18 +72,26 @@ nav {
     font-size: 18px;
   }
 
-  #culi {
-    color: #56005e;
+}
+
+.links-box{
+  h2 {
+    color: rgb(105, 0, 131);
   }
 
-  #nar {
-    color: #039b24;
+  p {
+    color: #000000;
+    font-size: 18px;
   }
 
-  #ias {
-    color: #c20000;
+  .linha{
+    border: #f70505 solid 1px;
   }
 
+  a{
+    color: rgb(23, 132, 175);
+    text-decoration: none;
+  }
 }
 
 .botao {
