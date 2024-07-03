@@ -1,9 +1,15 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
 body {
   background-color: white;
   overflow-x: hidden;
   cursor: default;
 }
 
+/*
 header {
   background-color: #000000;
   border-bottom: 1px solid #000000;
@@ -17,16 +23,11 @@ header {
 }
 
 nav {
-  background-color: #000000;
   border-bottom: 1px solid #000000;
   border-radius: 5px;
+
   h1 {
     color: #ffffff;
-    cursor: default;
-  }
-
-  .cog-inc{ 
-    font-family:serif;
   }
 
   a {
@@ -39,6 +40,7 @@ nav {
     }
   }
 }
+*/
 
 /*
 .title-image {
@@ -52,6 +54,95 @@ nav {
 }
 */
 
+html{
+  height: 500vh;
+}
+
+.container{
+  max-width: 1280px;
+  margin: auto;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header{
+  width: 100%;
+  padding: 60px 4%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: .5s;
+  p{
+    color: #ffffff;
+    font-size: 30px;
+  }
+
+  ul{
+    list-style-type: none;
+
+    li{
+      display: inline-block;
+      margin: 0 40px;
+    }
+
+  }
+
+  a{
+    color: #ffffff;
+    text-decoration: none;
+  }
+}
+
+header.rolagem{
+  background-color: #ffffff;
+  padding: 5px 4%;
+  background-color: rgba(105, 0, 131, 0.9);
+  
+  a{
+    color: rgb(0, 0, 0);
+  }
+
+  p{
+    color: rgb(0, 0, 0);
+  } 
+}
+
+.banner{
+  background-image: url(/assets/pexels-francesco-ungaro-5087702.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h1{
+    font-size: 4em;
+    color: white;
+    span{
+      color: rgb(105, 0, 131);
+    }
+  }
+}
+
+::-webkit-scrollbar{
+  width: 1rem;
+}
+
+::-webkit-scrollbar-track{
+  background-color: rgba(234, 152, 255, 0.4);
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: rgba(78, 0, 97, 0.8);
+}
+
+/*
 .paisagem{
   padding: 0;
   margin: 0;
@@ -63,7 +154,7 @@ nav {
     object-fit: cover;
   }
 }
-
+*/
 .welcome {
   h2 {
     color: rgb(105, 0, 131);
