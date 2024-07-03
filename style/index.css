@@ -37,14 +37,28 @@ nav a:hover {
   color: #e2dddd;
 }
 
+/*
 .title-image {
-  background-image: url(Portifolio/assets/paisagem-title.jpg);
+  background-image: url(/assets/paisagem-title.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 515px;
   border-bottom: 1px solid #000000;
   cursor: default;
+}
+*/
+.paisagem {
+  padding: 0;
+  margin: 0;
+}
+.paisagem img {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .welcome h2 {
