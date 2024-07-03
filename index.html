@@ -13,48 +13,30 @@
 </head>
 
 <body>
-    <!-- 
-  <header class="container-fluid">
-    <div class="col"> 
-      <p>Header</p>
-    </div>
-  </header>
-  <nav class="row bg-dark mb-0-sm">
-    <div class="col-sm-5 col-12 text-center mx-4 py-3">
-      <h1>João Vitor Hess Nardes</h1>
-    </div>
-    <div class="col-sm-4 col-6 text-center py-3 mt-2">
-      <a class="h4" href="#section1">Sobre mim e Links</a>
-    </div>
-    <div class="col-sm-2 col-6 text-center py-3 mt-2">
-      <a class="h4">Projetos</a>
-  </nav>
-  -->
-  <!--   <div class="container-fluid title-image py-5">
-  </div>
-  <div class="container-fluid paisagem">
-    <img src="./assets/paisagem-title.jpg" alt="paisagem">
-  </div>
-  -->
   <header class="header">
     <div class="container">
-      <div class="flex">
-        <p>JOÃO VITOR HESS NARDES</p>
-        <nav>
-          <ul>
-            <li><a href="">SOBRE MIM</a></li>
-            <li><a href="">PROJETOS</a></li>
-            <li><a href="#section1">CONTATO</a></li>
-            <li><a href="">REDES</a></li>
+      <div class="d-flex justify-content-between align-items-center">
+        <p class="m-0 d-none d-md-block">JOÃO VITOR HESS NARDES</p>
+        <nav class="my-2 my-md-0">
+          <ul class="list-unstyled m-0 d-flex flex-column flex-md-row">
+            <li class="mb-2"><a href="#" class="text-decoration-none text-white d-block text-center">SOBRE MIM</a></li>
+            <li class="mb-2"><a href="#" class="text-decoration-none text-white d-block text-center">PROJETOS</a></li>
+            <li class="mb-2"><a href="#section1" class="text-decoration-none text-white d-block text-center">CONTATO</a></li>
+            <li class="mb-2"><a href="#" class="text-decoration-none text-white d-block text-center">REDES</a></li>
           </ul>
         </nav>
-        <img src="./icons/journal-code.svg" alt="jornal code icon">
+        <img src="./icons/journal-code.svg" alt="jornal code icon" class="img-fluid">
       </div>
     </div>
   </header>
-
   <section class="banner">
-    <h1>BEM VINDO AO MEU <span>PORTFOLIO</span></h1>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center align-items-center">
+          <h1 class="text-center">BEM VINDO AO MEU <span>PORTFOLIO</span></h1>
+        </div>
+      </div>
+    </div>
   </section>
 
   <div class="container-fluid">
@@ -107,6 +89,7 @@
         </div>
       </div>
     </div>
+
     <div class="bottom row container-fluid d-flex justify-content-center p-5">
       <div class="col-sm-4 text-center mb-3">
         <img class="mb-3" src="./assets/cogumelo-1-imagem.jpg" alt="cogumelo-1" class="img-fluid">
