@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: whitesmoke;
   overflow-x: hidden;
   cursor: default;
 }
@@ -56,6 +56,7 @@ header.rolagem p {
 
 .banner {
   background-image: url(/Portifolio/assets/banner.jpg);
+  /* /Portifolio */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -84,20 +85,37 @@ header.rolagem p {
   background-color: rgba(78, 0, 97, 0.8);
 }
 
-.welcome h2 {
+.sobre-mim h2 {
   color: rgb(105, 0, 131);
 }
-.welcome .linha {
+.sobre-mim #front-end {
+  color: #800901;
+  margin: 5px 0;
+}
+.sobre-mim #back-end {
+  color: #1c7202;
+  margin: 5px 0;
+}
+.sobre-mim #banco-de-dados {
+  color: #90a000;
+  margin: 5px 0;
+}
+.sobre-mim #projetos-pessoais {
+  color: #035e59;
+  margin: 5px 0;
+}
+.sobre-mim #habilidades-interpessoais {
+  color: #791574;
+  margin: 5px 0;
+}
+.sobre-mim .linha {
   border: #f70505 solid 1px;
 }
-.welcome .linha1 {
+.sobre-mim .linha1 {
   border: #f70505 solid 1px;
   height: 77px;
 }
-.welcome .linha2 {
-  border: #00af0f solid 1px;
-}
-.welcome p {
+.sobre-mim p {
   color: #000000;
   font-size: 18px;
 }
