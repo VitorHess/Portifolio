@@ -14,128 +14,105 @@
 
 <body>
 
-   <header id="header" class="header">
+  <header id="header" class="header py-3">
     <div class="container">
       <div class="d-flex justify-content-between align-items-center">
         <p class="m-0 d-none d-md-block">JOÃO VITOR HESS NARDES</p>
         <nav class="my-2 my-md-0 text-center text-md-start">
-          <ul
-            class="list-unstyled m-0 d-flex flex-column flex-md-row justify-content-center justify-content-md-start align-items-center">
+          <ul class="list-unstyled m-0 d-flex flex-column flex-md-row justify-content-center justify-content-md-start align-items-center">
             <li class="mb-2"><a href="#section1" class="text-decoration-none text-white d-block">SOBRE MIM</a></li>
             <li class="mb-2"><a href="#section2" class="text-decoration-none text-white d-block">CONTATO</a></li>
             <li class="mb-2"><a href="#section3" class="text-decoration-none text-white d-block">REDES</a></li>
             <li class="mb-2"><a href="#section5" class="text-decoration-none text-white d-block">PROJETOS</a></li>
           </ul>
         </nav>
-        <img class="d-none d-md-block" src="./icons/journal-code.svg" alt="jornal code icon" class="img-fluid">
+        <img class="d-none d-md-block" src="./icons/journal-code.svg" alt="journal code icon" class="img-fluid">
       </div>
     </div>
   </header>
-
-  <section class="banner">
-    <div class="container-fluid">
+  
+  <section class="banner py-5">
+    <div class="container">
       <div class="row">
         <div class="col-12 d-flex justify-content-center align-items-center">
-          <h1 class="text-center">BEM VINDO AO MEU <span>PORTFOLIO</span></h1>
+          <h1 class="text-center">BEM VINDO AO MEU <span class="text-info">PORTFOLIO</span></h1>
         </div>
       </div>
     </div>
   </section>
-
-  <div class="container-fluid">
-    <div class="row">
-      <section id="section1"></section>
-      <div class="container vh-100 d-flex align-items-center justify-content-center ml-3 p-0">
-        <div class="row w-100 m-0 p-0 mx-5 d-flex align-items-center">
-          <div class="sobre-mim col-sm order-lg-1 p-4">
-            <div>
-              <h2 class="display-4 text-center">Sobre mim</h2>
-              <div class="linha w-100"></div>
-            </div>
-            <div id="texto-principal" class="mt-3">
-              <p class="text-center">
-                Desde a adolescência, sou apaixonado por programação, explorando e aprendendo várias linguagens de
-                desenvolvimento, tanto para front-end quanto para back-end. Tenho dedicado bastante tempo ao estudo
-                autodidata.
-                <!--  >:( maximo de 16 linhas ou 1000 letras ) -->
-              </p>
-
-              <ul class="list-unstyled text-center">
-                <li id="front-end">
-                  <img src="./icons/body-text.svg" alt="front-end icon"> No front-end, aprendi HTML, CSS e um pouco de
-                  Angular, criando algumas páginas web interativas.
-                </li>
-                <li id="back-end">
-                  <img src="./icons/code.svg" alt="front-end icon"> No back-end, fiz projetos simples usando Node.js e
-                  Django, aprendendo a criar a lógica de funcionamento
-                  de aplicações.
-                </li>
-                <li id="banco-de-dados">
-                  <img src="./icons/database.svg" alt="front-end icon"> Também usei com bancos de dados como MySQL para
-                  armazenar informações de forma organizada.
-                </li>
-                <li id="projetos-pessoais">
-                  <img src="./icons/laptop.svg" alt="front-end icon"> Em projetos pessoais, desenvolvi algumas
-                  aplicações web simples, integrando APIs básicas.
-                </li>
-                <li id="habilidades-interpessoais">
-                  <img src="./icons/people-fill.svg" alt="front-end icon"> Na faculdade, participei de projetos em
-                  grupo, onde pude trabalhar com meus colegas, melhorando minhas
-                  habilidades de trabalho em equipe e comunicação.
-                </li>
-              </ul>
-
-              <p class="text-center">
-                Acredito que continuar aprendendo, praticando e enfrentando novos desafios é essencial para me
-                tornar um desenvolvedor competente.
-                <br>
-                Tenho o objetivo de me tornar um profissional cada vez mais
-                preparado para as demandas do mercado.
-                <br>
-                A cada novo projeto, busco aplicar o que aprendi e aprender
-                ainda mais, sempre com a mesma paixão e curiosidade que me acompanham desde a adolescência.
-              </p>
-            </div>
-          </div>
+  
+  <section id="section1" class="sobre-mim py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="display-4 text-center">Sobre mim</h2>
+          <hr class="my-4">
+          <p class="text-center">
+            Desde a adolescência, sou apaixonado por programação, explorando e aprendendo várias linguagens de
+            desenvolvimento, tanto para front-end quanto para back-end. Tenho dedicado bastante tempo ao estudo
+            autodidata.
+          </p>
+          <ul class="list-unstyled text-center">
+            <li id="front-end">
+              <img src="./icons/body-text.svg" alt="front-end icon"> No front-end, aprendi HTML, CSS e um pouco de
+              Angular, criando algumas páginas web interativas.
+            </li>
+            <li id="back-end">
+              <img src="./icons/code.svg" alt="back-end icon"> No back-end, fiz projetos simples usando Node.js e
+              Django, aprendendo a criar a lógica de funcionamento de aplicações.
+            </li>
+            <li id="banco-de-dados">
+              <img src="./icons/database.svg" alt="banco-de-dados icon"> Também usei bancos de dados como MySQL para
+              armazenar informações de forma organizada.
+            </li>
+            <li id="projetos-pessoais">
+              <img src="./icons/laptop.svg" alt="projetos-pessoais icon"> Em projetos pessoais, desenvolvi algumas
+              aplicações web simples, integrando APIs básicas.
+            </li>
+            <li id="habilidades-interpessoais">
+              <img src="./icons/people-fill.svg" alt="habilidades-interpessoais icon"> Na faculdade, participei de projetos em
+              grupo, onde pude trabalhar com meus colegas, melhorando minhas
+              habilidades de trabalho em equipe e comunicação.
+            </li>
+          </ul>
+          <p class="text-center">
+            Acredito que continuar aprendendo, praticando e enfrentando novos desafios é essencial para me
+            tornar um desenvolvedor competente. Tenho o objetivo de me tornar um profissional cada vez mais
+            preparado para as demandas do mercado. A cada novo projeto, busco aplicar o que aprendi e aprender
+            ainda mais, sempre com a mesma paixão e curiosidade que me acompanham desde a adolescência.
+          </p>
         </div>
       </div>
     </div>
-  </div>
-
-  <div class="container-fluid">
-    <div class="row">
-      <section id="section2"></section>
-      <div class="container vh-100 d-flex align-items-center justify-content-center ml-3 p-0">
-        <div class="row w-100 m-0 p-0 mx-5 d-flex align-items-center">
-          <div class="contato col-sm order-lg-1 p-4">
-            <div>
-              <h2 class="display-4 text-center">Contato</h2>
-              <div class="linha w-75"></div>
-            </div>
-            <div class="mt-3">
-              <ul class="list-unstyled text-center">
-                <li id="numero" class="my-4" onclick="copiarTexto('numero-span')">
-                  <h3>Numero de celular</h3>
-                  <div class="d-flex align-items-center justify-content-center">
-                    <img class="mx-2" src="./icons/telephone-fill.svg" alt="telefone icon">
-                    <span id="numero-ddd" class="ml-2">(+55)</span>
-                    <span id="numero-span" class="ml-2">41999287694</span>
-                  </div>
-                </li>
-                <li id="email" class="my-4" onclick="copiarTexto('email-span')">
-                  <h3>Email</h3>
-                  <div class="d-flex align-items-center justify-content-center">
-                    <img class="mx-2" src="./icons/envelope.svg" alt="email icon">
-                    <span id="email-span">jvhn2006@gmail.com</span>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
+  </section>
+  
+  <section id="section2" class="py-5 contato">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="display-4 text-center">Contato</h2>
+          <hr class="my-4">
+          <ul class="list-unstyled text-center">
+            <li id="numero" class="my-4" onclick="copiarTexto('numero-span')">
+              <h3>Numero de celular</h3>
+              <div class="d-flex align-items-center justify-content-center">
+                <img class="mx-2" src="./icons/telephone-fill.svg" alt="telefone icon">
+                <span id="numero-ddd" class="ml-2">(+55)</span>
+                <span id="numero-span" class="ml-2">41999287694</span>
+              </div>
+            </li>
+            <li id="email" class="my-4" onclick="copiarTexto('email-span')">
+              <h3>Email</h3>
+              <div class="d-flex align-items-center justify-content-center">
+                <img class="mx-2" src="./icons/envelope.svg" alt="email icon">
+                <span id="email-span">jvhn2006@gmail.com</span>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
   <div class="container-fluid">
     <div class="row">
@@ -191,7 +168,7 @@
       </p>
       <div class="botao mt-4 d-flex justify-content-center">
         <a href="https://github.com/IvanCardoso91/amigoPet" target="_blank"
-          class="btn btn-primary text-light text-center px-4 py-2 align-self-start mt-1">
+          class="btn mb-5 btn-primary text-light text-center px-4 py-2 align-self-start mt-1">
           Ir para o repositório do projeto
         </a>
       </div>
@@ -202,7 +179,7 @@
         <img class="mb-3 img-fluid" src="./assets/reino dos cogumelos - projeto 2.png" alt="foto projeto">
         <h3 class="mb-3">Floresta dos cogumelos</h3>
         <p>
-          Uma atividade acadêmica na faculdade envolve a criação de uma landing page usando Bootstrap e Sass, com foco
+          Uma atividade acadêmica na faculdade envolvendo a criação de uma landing page usando Bootstrap e Sass, com foco
           em responsividade. <br>
           Realizada individualmente, a atividade visa integrar os princípios do design responsivo com as capacidades de
           estruturação ágil do Bootstrap e a organização eficiente de estilos utilizando Sass. <br>
@@ -211,7 +188,7 @@
         </p>
         <div class="botao mt-4 d-flex justify-content-center">
           <a href="https://github.com/VitorHess/Floresta-dos-cogumelos" target="_blank"
-            class="btn btn-primary text-light text-center px-4 py-2 align-self-start mt-1">
+            class="btn mb-5 btn-primary text-light text-center px-4 py-2 align-self-start mt-1">
             Ir para o repositório do projeto
           </a>
         </div>

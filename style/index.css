@@ -104,6 +104,9 @@ header.rolagem2 p {
   background-color: rgba(78, 0, 97, 0.8);
 }
 
+.sobre-mim {
+  font-size: 18px;
+}
 .sobre-mim #texto-principal {
   font-size: 20px;
 }
