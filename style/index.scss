@@ -48,7 +48,6 @@ header {
 }
 
 header.rolagem {
-  background-color: #ffffff;
   padding: 5px 4%;
   background-color: rgba(105, 0, 131, 0.9);
 
@@ -59,6 +58,27 @@ header.rolagem {
   p {
     color: rgb(0, 0, 0);
   }
+}
+
+header.rolagem2 {
+  background-color: rgba(105, 0, 131, 0.2);
+
+  a {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+  }
+
+  p {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+  }
+}
+
+.custom-alert {
+  position: fixed;
+  top: 100px;
+  right: 200px;
+  z-index: 9999;
 }
 
 .banner {
@@ -158,12 +178,12 @@ header.rolagem {
       font-size: 20px;
       cursor: pointer;
 
-      &:hover{
+      &:hover {
         color: #04b849;
       }
     }
 
-    #numero-dd{
+    #numero-ddd {
       color: #026127;
       font-size: 20px;
     }
@@ -181,7 +201,7 @@ header.rolagem {
       font-size: 20px;
       cursor: pointer;
 
-      &:hover{
+      &:hover {
         color: #472cdf;
       }
 
@@ -194,12 +214,7 @@ header.rolagem {
   }
 
   .linha {
-    border: #f70505 solid 1px;
-  }
-
-  .linha1 {
-    border: #f70505 solid 1px;
-    height: 77px;
+    border: #33b9ae solid 1px;
   }
 
   p {
@@ -220,7 +235,7 @@ header.rolagem {
       font-size: 20px;
       text-decoration: none;
 
-      &:hover{
+      &:hover {
         color: #07b5bb;
       }
     }
@@ -238,7 +253,7 @@ header.rolagem {
       font-size: 20px;
       text-decoration: none;
 
-      &:hover{
+      &:hover {
         color: #4529e2;
       }
     }
@@ -250,12 +265,7 @@ header.rolagem {
   }
 
   .linha {
-    border: #f70505 solid 1px;
-  }
-
-  .linha1 {
-    border: #f70505 solid 1px;
-    height: 77px;
+    border: #058817 solid 1px;
   }
 
   p {
@@ -264,27 +274,28 @@ header.rolagem {
   }
 }
 
-.botao {
-  .btn {
-    background-color: #04861a;
-  }
-}
-
-.bottom {
+.projetos {
   img {
-    height: 300px;
-    width: 300px;
+    height: 150px;
+    width: 200px;
   }
 
   div {
     .btn {
       background-color: #3f034e;
+      border: 0;
+
+      &:hover {
+        cursor: pointer;
+        background-color: #670480;
+        transition: 0.2s;
+      }
     }
   }
 }
 
-.rodape {
-  div {
-    color: #000000;
-  }
+.linha {
+  border: #ac097b solid 1px;
+  width: 30%;
+  margin: 2rem auto;
 }

@@ -43,7 +43,6 @@ header a {
 }
 
 header.rolagem {
-  background-color: #ffffff;
   padding: 5px 4%;
   background-color: rgba(105, 0, 131, 0.9);
 }
@@ -52,6 +51,25 @@ header.rolagem a {
 }
 header.rolagem p {
   color: rgb(0, 0, 0);
+}
+
+header.rolagem2 {
+  background-color: rgba(105, 0, 131, 0.2);
+}
+header.rolagem2 a {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+}
+header.rolagem2 p {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+.custom-alert {
+  position: fixed;
+  top: 100px;
+  right: 200px;
+  z-index: 9999;
 }
 
 .banner {
@@ -134,7 +152,7 @@ header.rolagem p {
 .contato #numero #numero-span:hover {
   color: #04b849;
 }
-.contato #numero #numero-dd {
+.contato #numero #numero-ddd {
   color: #026127;
   font-size: 20px;
 }
@@ -155,11 +173,7 @@ header.rolagem p {
   height: 20px;
 }
 .contato .linha {
-  border: #f70505 solid 1px;
-}
-.contato .linha1 {
-  border: #f70505 solid 1px;
-  height: 77px;
+  border: #33b9ae solid 1px;
 }
 .contato p {
   color: #000000;
@@ -194,29 +208,29 @@ header.rolagem p {
   height: 20px;
 }
 .redes .linha {
-  border: #f70505 solid 1px;
-}
-.redes .linha1 {
-  border: #f70505 solid 1px;
-  height: 77px;
+  border: #058817 solid 1px;
 }
 .redes p {
   color: #000000;
   font-size: 18px;
 }
 
-.botao .btn {
-  background-color: #04861a;
+.projetos img {
+  height: 150px;
+  width: 200px;
 }
-
-.bottom img {
-  height: 300px;
-  width: 300px;
-}
-.bottom div .btn {
+.projetos div .btn {
   background-color: #3f034e;
+  border: 0;
+}
+.projetos div .btn:hover {
+  cursor: pointer;
+  background-color: #670480;
+  transition: 0.2s;
 }
 
-.rodape div {
-  color: #000000;
+.linha {
+  border: #ac097b solid 1px;
+  width: 30%;
+  margin: 2rem auto;
 }/*# sourceMappingURL=index.css.map */

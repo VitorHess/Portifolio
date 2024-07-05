@@ -1,16 +1,23 @@
 function copiarTexto(idElemento) {
-    var texto = document.getElementById(idElemento).innerText;
+    var texto = document.getElementById(idElemento).innerText.trim();
 
-    var inputTemporario = document.createElement("input");
-    inputTemporario.setAttribute("value", texto);
-    document.body.appendChild(inputTemporario);
+    navigator.clipboard.writeText(texto)
+        .then(function() {
+            mostrarNotificacao("Texto copiado com sucesso", texto);
+        })
+        .catch(function(err) {
+            console.error('Erro ao copiar texto: ', err);
+        });
+}
 
-    inputTemporario.select();
-    inputTemporario.setSelectionRange(0, 99999);
+function mostrarNotificacao(titulo, mensagem) {
+    var divNotificacao = document.createElement("div");
+    divNotificacao.classList.add("alert", "alert-success", "custom-alert");
+    divNotificacao.innerHTML = `<strong>${titulo}</strong><br>${mensagem}`;
 
-    document.execCommand("copy");
+    document.body.appendChild(divNotificacao);
 
-    document.body.removeChild(inputTemporario);
-
-    alert("Este texto foi copiado: " + texto);
+    setTimeout(function() {
+        divNotificacao.remove();
+    }, 16000);
 }

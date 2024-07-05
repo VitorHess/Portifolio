@@ -23,7 +23,7 @@
             <li class="mb-2"><a href="#section1" class="text-decoration-none text-white d-block">SOBRE MIM</a></li>
             <li class="mb-2"><a href="#section2" class="text-decoration-none text-white d-block">CONTATO</a></li>
             <li class="mb-2"><a href="#section3" class="text-decoration-none text-white d-block">REDES</a></li>
-            <li class="mb-2"><a href="#section4" class="text-decoration-none text-white d-block">PROJETOS</a></li>
+            <li class="mb-2"><a href="#section5" class="text-decoration-none text-white d-block">PROJETOS</a></li>
           </ul>
         </nav>
         <img class="d-none d-md-block" src="./icons/journal-code.svg" alt="jornal code icon" class="img-fluid">
@@ -108,7 +108,7 @@
           <div class="contato col-sm order-lg-1 p-4">
             <div>
               <h2 class="display-4 text-center">Contato</h2>
-              <div class="linha w-100"></div>
+              <div class="linha w-75"></div>
             </div>
             <div class="mt-3">
               <ul class="list-unstyled text-center">
@@ -116,8 +116,8 @@
                   <h3>Numero de celular</h3>
                   <div class="d-flex align-items-center justify-content-center">
                     <img class="mx-2" src="./icons/telephone-fill.svg" alt="telefone icon">
-                    <span id="numero-dd" class="ml-2">(+55)</span> <span id="numero-span"
-                      class="ml-2">41999287694</span>
+                    <span id="numero-ddd" class="ml-2">(+55)</span>
+                    <span id="numero-span" class="ml-2">41999287694</span>
                   </div>
                 </li>
                 <li id="email" class="my-4" onclick="copiarTexto('email-span')">
@@ -143,7 +143,7 @@
           <div class="redes col-sm order-lg-1 p-4">
             <div>
               <h2 class="display-4 text-center">Redes</h2>
-              <div class="linha w-100"></div>
+              <div class="linha w-50"></div>
             </div>
             <div class="mt-3">
               <ul class="list-unstyled text-center">
@@ -151,14 +151,14 @@
                   <h3>GitHub</h3>
                   <div class="d-flex align-items-center justify-content-center">
                     <img class="mx-2" src="./icons/github.svg" alt="GitHub icon">
-                    <a id="github-link" class="ml-2" href="https://github.com/VitorHess">Meu perfil no GitHub</a>
+                    <a id="github-link" class="ml-2" href="https://github.com/VitorHess" target="_blank">Meu perfil no GitHub</a>
                   </div>
                 </li>
                 <li id="linkedin" class="my-4">
                   <h3>Linkedin</h3>
                   <div class="d-flex align-items-center justify-content-center">
                     <img class="mx-2" src="./icons/linkedin.svg" alt="Linkedin icon">
-                    <a id="linkedin-link" class="ml-2"
+                    <a id="linkedin-link" class="ml-2" target="_blank"
                       href="https://www.linkedin.com/in/joao-vitor-hess-nardes-301535242/">Meu perfil no Linkedin</a>
                   </div>
                 </li>
@@ -170,59 +170,50 @@
     </div>
   </div>
 
-  <div class="bottom row container-fluid d-flex justify-content-center p-5">
-    <div class="col-sm-4 text-center mb-3">
-      <img class="mb-3" src="./assets/cogumelo-1-imagem.jpg" alt="cogumelo-1" class="img-fluid">
-      <h3 class="mb-3">Baeocystis</h3>
-      <p>Estudos recentes destacam os potenciais benefícios terapêuticos dos cogumelos. <br>
-        Podendo ser usados no tratamento da depressão e vazio existencial.<br>
-        estimulando um interesse renovado na comunidade científica frustada.</p>
-      <div class="botao mt-3 d-flex justify-content-center">
-        <div class="btn text-light text-center px-4 py-2 align-self-start mt-1">
-          Ler materia completa
-        </div>
-      </div>
+  <div class="projetos row container-fluid d-flex justify-content-center p-5">
+    <section id="section5"></section>
+    <div class="my-5 w-100">
+      <h2 class="display-4 text-center my-2">Projetos</h2>
+      <div class="linha"></div>
     </div>
     <div class="col-sm-4 text-center mb-3">
-      <img class="mb-3" src="./assets/cogumelo-2-imagem.jpg" alt="cogumelo-2" class="img-fluid">
-      <h3 class="mb-3">Luteofolius</h3>
-      <p>Foi descoberta uma nova espécie de cogumelo psicoativo profundamente escondidos na Amazônia.
-        <br> Este cogumelo tem efeitos terapêuticos e além disso, ajuda contra dermatite. <br>
-        Mas infelizmente causa problemas de respiraçao a longo prazo...
+      <img class="mb-3 img-fluid" src="./assets/Amigopet - projeto1.png" alt="foto projeto">
+      <h3 class="mb-3">Amigopet</h3>
+      <p>
+        Um projeto realizado no primeiro período da faculdade, em equipe de três pessoas, utilizando HTML, CSS e JavaScript. 
+        Focou-se na criação de uma página web interativa, combinando estruturação de conteúdo, 
+        design visual e funcionalidades dinâmicas, proporcionando uma introdução prática ao desenvolvimento web colaborativo.
       </p>
-      <div class="botao mt-3 d-flex justify-content-center">
-        <div class="btn text-light text-center px-4 py-2 align-self-start mt-1">
-          Ler materia completa
-        </div>
+      <div class="botao mt-4 d-flex justify-content-center">
+        <a href="https://github.com/IvanCardoso91/amigoPet" target="_blank"
+          class="btn btn-primary text-light text-center px-4 py-2 align-self-start mt-1">
+          Ir para o repositório do projeto
+        </a>
       </div>
     </div>
-    <div class="col-sm-4 text-center mb-3">
-      <img class="mb-3" src="./assets/cogumelo-3-imagem.jpg" alt="cogumelo-3" class="img-fluid">
-      <h3 class="mb-3">Cyanescens</h3>
-      <p>Relatos recentes indicam um aumento na procura por cogumelos alucinógenos.
-        <br>impulsionado pelo interesse crescente em terapias alternativas e experiências psicodélicas.
-      </p>
-      <div class="botao mt-3 d-flex justify-content-center">
-        <div class="btn text-light text-center px-4 py-2 align-self-start mt-1">
-          Ler materia completa
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
-  <div class="rodape row">
-    <div class="col d-none d-md-block text-center">
-      <p class="mb-1">Criando <span id="exp">experiências</span> que expandem horizontes e transformam perspectivas, uma
-        <span id="aluc">alucinante</span> jornada cognitiva com <span id="cog">Cog.inc</span>.
-      </p>
-    </div>
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
 
-  <script src="./scripts/menu.js"></script>
-  <script src="./scripts/copy-click.js"></script>
+  <div class="projetos row container-fluid d-flex justify-content-center p-5">
+    <div class="col-sm-4 text-center mb-3">
+      <img class="mb-3 img-fluid" src="./assets/reino dos cogumelos - projeto 2.png" alt="foto projeto">
+      <h3 class="mb-3">Floresta dos cogumelos</h3>
+      <p>
+        Uma atividade acadêmica na faculdade envolve a criação de uma landing page usando Bootstrap e Sass, com foco em responsividade. <br>
+         Realizada individualmente, a atividade visa integrar os princípios do design responsivo com as capacidades de estruturação ágil do Bootstrap e a organização eficiente de estilos utilizando Sass. <br>
+          Essa experiência permite aos estudantes explorar técnicas avançadas de front-end, garantindo uma experiência de usuário consistente em diferentes dispositivos.
+      </p>
+      <div class="botao mt-4 d-flex justify-content-center">
+        <a href="https://github.com/VitorHess/Floresta-dos-cogumelos" target="_blank"
+          class="btn btn-primary text-light text-center px-4 py-2 align-self-start mt-1">
+          Ir para o repositório do projeto
+        </a>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"></script>
+    <script src="./scripts/menu.js"></script>
+    <script src="./scripts/copy-click.js"></script>
 </body>
 
 </html>
