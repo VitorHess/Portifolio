@@ -33,7 +33,7 @@ header {
 
   ul {
     list-style-type: none;
-
+    transition: 1s;
     li {
       display: inline-block;
       margin: 0 40px;
@@ -60,9 +60,8 @@ header.rolagem {
   }
 }
 
-header.rolagem2 {
+header.rolagem2 { 
   background-color: rgba(105, 0, 131, 0.2);
-
   a {
     color: rgb(0, 0, 0);
     font-size: 15px;
