@@ -85,6 +85,9 @@ header.rolagem p {
   background-color: rgba(78, 0, 97, 0.8);
 }
 
+.sobre-mim #texto-principal {
+  font-size: 20px;
+}
 .sobre-mim h2 {
   color: rgb(105, 0, 131);
 }
@@ -120,23 +123,86 @@ header.rolagem p {
   font-size: 18px;
 }
 
-.links-box h2 {
+.contato h2 {
   color: rgb(105, 0, 131);
 }
-.links-box p {
+.contato #numero #numero-span {
+  color: #026127;
+  font-size: 20px;
+  cursor: pointer;
+}
+.contato #numero #numero-span:hover {
+  color: #04b849;
+}
+.contato #numero #numero-dd {
+  color: #026127;
+  font-size: 20px;
+}
+.contato #numero img {
+  width: 20px;
+  height: 20px;
+}
+.contato #email #email-span {
+  color: #160479;
+  font-size: 20px;
+  cursor: pointer;
+}
+.contato #email #email-span:hover {
+  color: #472cdf;
+}
+.contato #email img {
+  width: 20px;
+  height: 20px;
+}
+.contato .linha {
+  border: #f70505 solid 1px;
+}
+.contato .linha1 {
+  border: #f70505 solid 1px;
+  height: 77px;
+}
+.contato p {
   color: #000000;
   font-size: 18px;
 }
-.links-box .linha {
+
+.redes h2 {
+  color: rgb(105, 0, 131);
+}
+.redes #linkedin #linkedin-link {
+  color: #047a7e;
+  font-size: 20px;
+  text-decoration: none;
+}
+.redes #linkedin #linkedin-link:hover {
+  color: #07b5bb;
+}
+.redes #linkedin img {
+  width: 20px;
+  height: 20px;
+}
+.redes #github #github-link {
+  color: #160479;
+  font-size: 20px;
+  text-decoration: none;
+}
+.redes #github #github-link:hover {
+  color: #4529e2;
+}
+.redes #github img {
+  width: 20px;
+  height: 20px;
+}
+.redes .linha {
   border: #f70505 solid 1px;
 }
-.links-box a {
-  color: rgb(23, 132, 175);
-  text-decoration: none;
-  cursor: pointer;
+.redes .linha1 {
+  border: #f70505 solid 1px;
+  height: 77px;
 }
-.links-box a:hover {
-  color: #295ab6;
+.redes p {
+  color: #000000;
+  font-size: 18px;
 }
 
 .botao .btn {

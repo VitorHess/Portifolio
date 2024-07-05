@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
@@ -9,58 +9,59 @@ body {
   cursor: default;
 }
 
-html{
+html {
   height: 500vh;
 }
 
-.container{
+.container {
   max-width: 1280px;
   margin: auto;
 }
 
-header{
+header {
   width: 100%;
   padding: 60px 4%;
   position: fixed;
   top: 0;
   left: 0;
   transition: .5s;
-  p{
+
+  p {
     color: #ffffff;
     font-size: 30px;
   }
 
-  ul{
+  ul {
     list-style-type: none;
 
-    li{
+    li {
       display: inline-block;
       margin: 0 40px;
     }
 
   }
 
-  a{
+  a {
     color: #ffffff;
     text-decoration: none;
   }
 }
 
-header.rolagem{
+header.rolagem {
   background-color: #ffffff;
   padding: 5px 4%;
   background-color: rgba(105, 0, 131, 0.9);
-  
-  a{
+
+  a {
     color: rgb(0, 0, 0);
   }
 
-  p{
+  p {
     color: rgb(0, 0, 0);
-  } 
+  }
 }
 
-.banner{
+.banner {
   background-image: url(/Portifolio/assets/banner.jpg);
   /* /Portifolio */
   background-position: center;
@@ -71,62 +72,69 @@ header.rolagem{
   display: flex;
   align-items: center;
   justify-content: center;
-  h1{
+
+  h1 {
     font-size: 4em;
     color: white;
-    span{
+
+    span {
       color: rgb(105, 0, 131);
     }
   }
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 1rem;
 }
 
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
   background-color: rgba(234, 152, 255, 0.4);
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
   background-color: rgba(78, 0, 97, 0.8);
 }
 
 .sobre-mim {
+
+  #texto-principal {
+    font-size: 20px;
+  }
+
   h2 {
     color: rgb(105, 0, 131);
   }
 
-  #front-end{
+  #front-end {
     color: #800901;
     margin: 5px 0;
   }
-  
-  #back-end{
+
+  #back-end {
     color: #1c7202;
     margin: 5px 0;
   }
 
-  #banco-de-dados{
+  #banco-de-dados {
     color: #90a000;
     margin: 5px 0;
   }
 
-  #projetos-pessoais{
+  #projetos-pessoais {
     color: #035e59;
     margin: 5px 0;
   }
 
-  #habilidades-interpessoais{
+  #habilidades-interpessoais {
     color: #791574;
     margin: 5px 0;
   }
 
-  .linha{
+  .linha {
     border: #f70505 solid 1px;
   }
 
-  .linha1{
+  .linha1 {
     border: #f70505 solid 1px;
     height: 77px;
   }
@@ -138,28 +146,121 @@ header.rolagem{
 
 }
 
-.links-box{
+.contato {
   h2 {
     color: rgb(105, 0, 131);
+  }
+
+  #numero {
+
+    #numero-span {
+      color: #026127;
+      font-size: 20px;
+      cursor: pointer;
+
+      &:hover{
+        color: #04b849;
+      }
+    }
+
+    #numero-dd{
+      color: #026127;
+      font-size: 20px;
+    }
+
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  #email {
+
+    #email-span {
+      color: #160479;
+      font-size: 20px;
+      cursor: pointer;
+
+      &:hover{
+        color: #472cdf;
+      }
+
+    }
+
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  .linha {
+    border: #f70505 solid 1px;
+  }
+
+  .linha1 {
+    border: #f70505 solid 1px;
+    height: 77px;
   }
 
   p {
     color: #000000;
     font-size: 18px;
   }
+}
 
-  .linha{
+.redes {
+  h2 {
+    color: rgb(105, 0, 131);
+  }
+
+  #linkedin {
+
+    #linkedin-link {
+      color: #047a7e;
+      font-size: 20px;
+      text-decoration: none;
+
+      &:hover{
+        color: #07b5bb;
+      }
+    }
+
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  #github {
+
+    #github-link {
+      color: #160479;
+      font-size: 20px;
+      text-decoration: none;
+
+      &:hover{
+        color: #4529e2;
+      }
+    }
+
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  .linha {
     border: #f70505 solid 1px;
   }
 
-  a{
-    color: rgb(23, 132, 175);
-    text-decoration: none;
-    cursor: pointer;
-    
-    &:hover {
-      color: #295ab6;
-    }
+  .linha1 {
+    border: #f70505 solid 1px;
+    height: 77px;
+  }
+
+  p {
+    color: #000000;
+    font-size: 18px;
   }
 }
 
@@ -174,15 +275,16 @@ header.rolagem{
     height: 300px;
     width: 300px;
   }
-  div{
-    .btn{
+
+  div {
+    .btn {
       background-color: #3f034e;
     }
   }
 }
 
-.rodape{
-  div{
+.rodape {
+  div {
     color: #000000;
   }
 }
