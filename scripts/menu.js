@@ -5,7 +5,7 @@ window.addEventListener("scroll", function() {
 
 window.addEventListener("scroll", function() {
     let header = document.querySelector('.header');
-    header.classList.toggle('rolagem2', window.scrollY > 2600);
+    header.classList.toggle('rolagem2', window.scrollY > 2400);
 });
 
 document.addEventListener("DOMContentLoaded", function() {

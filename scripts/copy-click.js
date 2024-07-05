@@ -19,5 +19,5 @@ function mostrarNotificacao(titulo, mensagem) {
 
     setTimeout(function() {
         divNotificacao.remove();
-    }, 16000);
+    }, 3000);
 }

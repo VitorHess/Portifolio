@@ -34,6 +34,7 @@ header {
   ul {
     list-style-type: none;
     transition: 1s;
+
     li {
       display: inline-block;
       margin: 0 40px;
@@ -60,8 +61,9 @@ header.rolagem {
   }
 }
 
-header.rolagem2 { 
+header.rolagem2 {
   background-color: rgba(105, 0, 131, 0.2);
+
   a {
     color: rgb(0, 0, 0);
     font-size: 15px;
@@ -116,6 +118,7 @@ header.rolagem2 {
 
 .sobre-mim {
   font-size: 18px;
+
   #texto-principal {
     font-size: 20px;
   }
@@ -149,14 +152,12 @@ header.rolagem2 {
     margin: 5px 0;
   }
 
-  .linha {
-    border: #f70505 solid 1px;
+  .container{
+    .linha {
+      border: #f70505 solid 1px;
+    }
   }
-
-  .linha1 {
-    border: #f70505 solid 1px;
-    height: 77px;
-  }
+ 
 
   p {
     color: #000000;

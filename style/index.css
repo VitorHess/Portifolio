@@ -133,12 +133,8 @@ header.rolagem2 p {
   color: #791574;
   margin: 5px 0;
 }
-.sobre-mim .linha {
+.sobre-mim .container .linha {
   border: #f70505 solid 1px;
-}
-.sobre-mim .linha1 {
-  border: #f70505 solid 1px;
-  height: 77px;
 }
 .sobre-mim p {
   color: #000000;
