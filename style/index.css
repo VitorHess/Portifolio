@@ -75,7 +75,7 @@ header.rolagem2 p {
 
 .banner {
   background-image: url(/Portifolio/assets/banner.jpg);
-  /* /Portifolio */
+  /* /Portifolio   path para o banner aparecer no pages.*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -106,6 +106,10 @@ header.rolagem2 p {
 
 .sobre-mim {
   font-size: 18px;
+}
+.sobre-mim hr {
+  border: #ff0000 solid 2px;
+  border-radius: 10px;
 }
 .sobre-mim #texto-principal {
   font-size: 20px;
@@ -144,6 +148,10 @@ header.rolagem2 p {
 .contato h2 {
   color: rgb(105, 0, 131);
 }
+.contato hr {
+  border: #00ad2b solid 2px;
+  border-radius: 10px;
+}
 .contato #numero #numero-span {
   color: #026127;
   font-size: 20px;
@@ -172,9 +180,6 @@ header.rolagem2 p {
   width: 20px;
   height: 20px;
 }
-.contato .linha {
-  border: #33b9ae solid 1px;
-}
 .contato p {
   color: #000000;
   font-size: 18px;
@@ -182,6 +187,10 @@ header.rolagem2 p {
 
 .redes h2 {
   color: rgb(105, 0, 131);
+}
+.redes hr {
+  border: #0089b3 solid 2px;
+  border-radius: 10px;
 }
 .redes #linkedin #linkedin-link {
   color: #047a7e;
@@ -207,17 +216,17 @@ header.rolagem2 p {
   width: 20px;
   height: 20px;
 }
-.redes .linha {
-  border: #058817 solid 1px;
-}
 .redes p {
   color: #000000;
   font-size: 18px;
 }
 
-.projetos img {
-  height: 150px;
-  width: 200px;
+.projetos h2 {
+  color: rgb(105, 0, 131);
+}
+.projetos hr {
+  border: #221374 solid 2px;
+  border-radius: 10px;
 }
 .projetos div .btn {
   background-color: #3f034e;
@@ -227,10 +236,4 @@ header.rolagem2 p {
   cursor: pointer;
   background-color: #670480;
   transition: 0.2s;
-}
-
-.linha {
-  border: #ac097b solid 1px;
-  width: 30%;
-  margin: 2rem auto;
 }/*# sourceMappingURL=index.css.map */

@@ -84,7 +84,7 @@ header.rolagem2 {
 
 .banner {
   background-image: url(/Portifolio/assets/banner.jpg);
-  /* /Portifolio */
+  /* /Portifolio   path para o banner aparecer no pages.*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -119,6 +119,11 @@ header.rolagem2 {
 .sobre-mim {
   font-size: 18px;
 
+  hr {
+    border: #ff0000 solid 2px;
+    border-radius: 10px;
+  }
+
   #texto-principal {
     font-size: 20px;
   }
@@ -152,12 +157,11 @@ header.rolagem2 {
     margin: 5px 0;
   }
 
-  .container{
+  .container {
     .linha {
       border: #f70505 solid 1px;
     }
   }
- 
 
   p {
     color: #000000;
@@ -169,6 +173,11 @@ header.rolagem2 {
 .contato {
   h2 {
     color: rgb(105, 0, 131);
+  }
+
+  hr {
+    border: #00ad2b solid 2px;
+    border-radius: 10px;
   }
 
   #numero {
@@ -213,10 +222,6 @@ header.rolagem2 {
     }
   }
 
-  .linha {
-    border: #33b9ae solid 1px;
-  }
-
   p {
     color: #000000;
     font-size: 18px;
@@ -226,6 +231,11 @@ header.rolagem2 {
 .redes {
   h2 {
     color: rgb(105, 0, 131);
+  }
+
+  hr {
+    border: #0089b3 solid 2px;
+    border-radius: 10px;
   }
 
   #linkedin {
@@ -263,10 +273,6 @@ header.rolagem2 {
     }
   }
 
-  .linha {
-    border: #058817 solid 1px;
-  }
-
   p {
     color: #000000;
     font-size: 18px;
@@ -274,9 +280,13 @@ header.rolagem2 {
 }
 
 .projetos {
-  img {
-    height: 150px;
-    width: 200px;
+  h2 {
+    color: rgb(105, 0, 131);
+  }
+
+  hr {
+    border: #221374 solid 2px;
+    border-radius: 10px;
   }
 
   div {
@@ -291,10 +301,4 @@ header.rolagem2 {
       }
     }
   }
-}
-
-.linha {
-  border: #ac097b solid 1px;
-  width: 30%;
-  margin: 2rem auto;
 }
